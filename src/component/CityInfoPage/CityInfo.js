@@ -3,7 +3,8 @@ import './CityInfo.css'
 import {Link} from 'react-router-dom';
 import London from './London';
 import Sydney from './Sydney';
-imo
+import SanFrancisco from './SanFrancisco';
+import Seattle from './Seattle';
 
 class CityInfo extends Component {
   render() {
@@ -14,6 +15,10 @@ class CityInfo extends Component {
       selectedCity = <London />
     } else if (this.props.selectedCity === "Sydney") {
       selectedCity = <Sydney />
+    } else if (this.props.selectedCity === "SanFrancisco") {
+      selectedCity = <SanFrancisco />
+    } else if (this.props.selectedCity === "seattle") {
+      selectedCity = <Seattle />
     }
 
     return (

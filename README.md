@@ -5,8 +5,11 @@
   - Heggy Castañeda
 
 We have been commissioned to build a travel community, code-named Project Wayfarer for now, for users to share tips (AKA posts) about their favorite locations around the world.  This is the front end portion
-[Heggy version with routing] (https://github.com/heggy231/react-routing.git)
+[Heggy version with routing] (https://github.com/heggy231/react-routing)
 
+- function: user can click and see the city info
+1) CitiesList.js has the switching if/else stmt
+  go there to import city component
 ## Technology used
 - React
 - JavaScript

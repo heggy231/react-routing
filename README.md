@@ -20,6 +20,7 @@ We have been commissioned to build a travel community, code-named Project Wayfar
 $ npm i -g create-react-app // updating this script to get the latest version of this create-react-app
 $ npm start
 ```
+Now you will see your react routing app up and running on http://localhost:3000/ !!!!
 
 ### Hierarchy:
   Home

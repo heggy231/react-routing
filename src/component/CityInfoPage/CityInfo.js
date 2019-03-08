@@ -17,7 +17,7 @@ class CityInfo extends Component {
       selectedCity = <Sydney />
     } else if (this.props.selectedCity === "SanFrancisco") {
       selectedCity = <SanFrancisco />
-    } else if (this.props.selectedCity === "seattle") {
+    } else if (this.props.selectedCity === "Seattle") {
       selectedCity = <Seattle />
     }
 
@@ -32,8 +32,12 @@ class CityInfo extends Component {
             <div>Sydney
               <Link to="/CityInfo/Sydney"><button>Sydney CityInfo</button></Link>
             </div>
-            <div>San Francisco</div>
-            <div>Seattle</div>
+            <div>San Francisco
+            <Link to="/CityInfo/SanFrancisco"><button>SanFrancisco CityInfo</button></Link>
+            </div>
+            <div>Seattle
+            <Link to="/CityInfo/Seattle"><button>Seattle CityInfo</button></Link>
+            </div>
           </div>
         {/* right column */}
           <div class="column">more info about my cities
